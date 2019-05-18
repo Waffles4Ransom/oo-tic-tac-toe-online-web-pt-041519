@@ -101,6 +101,7 @@ class TicTacToe
     until over?
       turn
     end
+    champ = winner
     
   end
   
