@@ -102,7 +102,9 @@ class TicTacToe
       turn
     end
     champ = winner
-    
+    puts "Congratulations #{champ}"
+  else draw?
+    puts "Cat's Game!"
   end
   
 end
