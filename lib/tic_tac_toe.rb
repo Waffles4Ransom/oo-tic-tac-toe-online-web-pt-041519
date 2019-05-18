@@ -101,10 +101,12 @@ class TicTacToe
     until over?
       turn
     end
+    if won?
     champ = winner
-    puts "Congratulations #{champ}"
-  else draw?
-    puts "Cat's Game!"
+      puts "Congratulations #{champ}"
+    else draw?
+      puts "Cat's Game!"
+    end
   end
   
 end
